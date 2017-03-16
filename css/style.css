@@ -33,10 +33,12 @@ header figure{
   vertical-align: middle;
 }
 .nav-haut{
+  margin-top: 0.5em;
   background-color:#33a1fd;
   text-align: center;
   padding: 1em;
   border-radius: 5px;
+  box-shadow: 2px 2px #1b2845;
 
 }
 
@@ -73,7 +75,7 @@ article span{
 }
 
 footer{
-  background-color: #818d92;
+  background-color: #33a1fd;
   margin-top:0.5em;
 
 }
@@ -85,12 +87,11 @@ footer nav{
   /*background-color: red;*/
   width: 20%;
   margin-left: 13%;
-  list-style-type: none;
 }
 footer div{
-  background-color: green;
+  /*background-color: green;*/
   width: 50%;
-  text-align: center;
+  /*text-align: center;*/
 }
 footer figure{
   /*background-color: purple;*/
@@ -99,4 +100,10 @@ footer figure{
 footer nav, footer div, footer aside{
   display: inline-block;
   vertical-align: middle;
+}
+footer li{
+  list-style-type: none;
+}
+footer a {
+  color:#fff;
 }
