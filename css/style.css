@@ -34,7 +34,7 @@ header figure{
 }
 .nav-haut{
   margin-top: 0.5em;
-  background-color:#33a1fd;
+  background-color:#A7BBD5;
   text-align: center;
   padding: 1.5em;
   border-radius: 5px;
@@ -75,7 +75,7 @@ article span{
 }
 
 footer{
-  background-color: #33a1fd;
+  background-color:#A7BBD5;
   margin-top:2em;
 
 }
@@ -112,7 +112,7 @@ footer a {
 footer h2{
   text-align: center;
   color:#fff;
-  background-color:#1b2845;
+  /*background-color:#1b2845;*/
   padding: 0.2em;
 }
 
@@ -122,9 +122,8 @@ footer h2{
 }
 .art3{
   width: 60%;
-  height: 30%;
-  background-color: red;
-  padding: 3em;
+  height: 50%;
+  background-color: #5472AE;
   margin: auto;
 
 }
@@ -133,4 +132,15 @@ footer h2{
   height: 30%;
   margin-left:33%;
   margin-top: 5em;
+}
+.art3 h2{
+  color: #fff;
+  text-align: center;
+  padding: 0.5em;
+  margin: 1em;
+}
+.art3 p{
+  color: #fff;
+  text-transform: uppercase;
+
 }
