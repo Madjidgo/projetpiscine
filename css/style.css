@@ -144,3 +144,24 @@ footer h2{
   text-transform: uppercase;
 
 }
+ input, textarea{
+  display: block;
+
+}
+iframe{
+  margin-top: 1.5em;
+  float: left;
+  width: 50%;
+}
+fieldset{
+  padding: 1em;
+  background-color: #5472AE;
+  margin-top: 1em;
+}
+fieldset label{
+  color: #fff;
+}
+legend{
+  text-transform: uppercase;
+  
+}

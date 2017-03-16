@@ -26,6 +26,7 @@
    <!--
    start if the nav
  -->
+
     <nav class="nav-haut">
       <ul>
         <li><a href="index.html">Accueil</a></li>
@@ -40,10 +41,14 @@
 
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10113.811679666445!2d3.1919312!3d50.6744174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6ae6585f5725be4!2sA.D.E.P.!5e0!3m2!1sfr!2sfr!4v1489695755649" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
   </iframe>
-  
+
+
   <p>
   <form action="traitement.php" method="post">
 
+<fieldset>
+
+    <legend> Informations personelles</legend>
     <label for="nom">Entre votre Nom:</label>
     <input type="text" name="nom" id="nom"  autofocus autocomplete="on" placeholder="Nom:">
 
@@ -54,10 +59,18 @@
     <input type="text" name="adresse" id="name" autofocus autocomplete="on" placeholder="Adesse:">
 
     <label for="mail">Entrer votre Mail:</label>
-    <input type="mail" name="mail" id="mail" autofocus autocomplete="on" placeholder="Mail:">
+    <input type="email" name="mail" id="mail" autofocus autocomplete="on" placeholder="Mail:">
 
     <label for="tel">Entrer votre Téléphone:</label>
     <input type="tel" name="tel" id="tel" autofocus autocomplete="on" placeholder="Télephone">
 
+    <label for="text">Vos attentes:</label>
+    <textarea name="text" rows="8" cols="40"></textarea>
+
+    <input type="submit" value="Envoyer">
+  </fieldset>
+
+    </form>
   </p>
-  </form>
+</body>
+</html>
