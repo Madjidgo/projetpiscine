@@ -36,7 +36,7 @@ header figure{
   margin-top: 0.5em;
   background-color:#33a1fd;
   text-align: center;
-  padding: 1em;
+  padding: 1.5em;
   border-radius: 5px;
   box-shadow: 2px 2px #1b2845;
 
@@ -50,33 +50,33 @@ header figure{
 .nav-haut a{
   text-decoration: none;
   color: #fff;
-  padding:1.5em;
+  padding:2em;
 }
 a:hover{
-color:#1b2845;
+background-color:#1b2845;
 }
 .fig1{
-  margin-left: 13%;
+  margin-left: 7%;
   margin-top: 0.5em;
 }
 article p{
-  width: 74%;
+  width: 86%;
   margin: auto;
 }
 article h3{
-  margin-left: 13%;
+  margin-left: 7%;
   text-decoration: underline;
   color:#1b2845;
 }
 article span{
   text-transform: uppercase;
     color:#1b2845;
-    background-color: #33a1fd;
+    text-transform: uppercase;
 }
 
 footer{
   background-color: #33a1fd;
-  margin-top:0.5em;
+  margin-top:2em;
 
 }
 footer img{
@@ -84,18 +84,20 @@ footer img{
   height: 50px;
 }
 footer nav{
-  /*background-color: red;*/
+
   width: 20%;
-  margin-left: 13%;
+  margin-left: 7%;
 }
 footer div{
-  /*background-color: green;*/
+
   width: 50%;
-  /*text-align: center;*/
+  text-align: center;
+  margin: auto;
 }
 footer figure{
-  /*background-color: purple;*/
+
   width: 24%;
+  margin: auto;
 }
 footer nav, footer div, footer aside{
   display: inline-block;
@@ -106,4 +108,10 @@ footer li{
 }
 footer a {
   color:#fff;
+}
+footer h2{
+  text-align: center;
+  color:#fff;
+  background-color:#1b2845;
+  padding: 0.2em;
 }
