@@ -1,28 +1,39 @@
 body{
+
+  background-color: #f4f4ed;
+}
+*{
   margin: 0;
   padding: 0;
 }
+
 header figure img
 {
   width: 300px;
   height: 300px;
   border-radius: 100%;
+  box-shadow: 2px 4px  #1b2845;
 
 }
+header p{
+  display: inline-block;
+}
 h1{
-  font-size: 50px;
+  font-size: 40px;
   vertical-align: middle;
   display: inline-block;
   margin-left: 10%;
   color: #135c81;
   text-shadow: 1px -2px #1b2845;
+  text-transform: capitalize;
+
 }
 header figure{
   display: inline-block;
   vertical-align: middle;
 }
 .nav-haut{
-  background-color:#1b2845;
+  background-color:#33a1fd;
   text-align: center;
   padding: 1em;
   border-radius: 5px;
@@ -32,9 +43,60 @@ header figure{
 .nav-haut li{
   display: inline-block;
   text-align: center;
+
 }
 .nav-haut a{
   text-decoration: none;
   color: #fff;
   padding:1.5em;
+}
+a:hover{
+color:#1b2845;
+}
+.fig1{
+  margin-left: 13%;
+  margin-top: 0.5em;
+}
+article p{
+  width: 74%;
+  margin: auto;
+}
+article h3{
+  margin-left: 13%;
+  text-decoration: underline;
+  color:#1b2845;
+}
+article span{
+  text-transform: uppercase;
+    color:#1b2845;
+    background-color: #33a1fd;
+}
+
+footer{
+  background-color: #818d92;
+  margin-top:0.5em;
+
+}
+footer img{
+  width: 50px;
+  height: 50px;
+}
+footer nav{
+  /*background-color: red;*/
+  width: 20%;
+  margin-left: 13%;
+  list-style-type: none;
+}
+footer div{
+  background-color: green;
+  width: 50%;
+  text-align: center;
+}
+footer figure{
+  /*background-color: purple;*/
+  width: 24%;
+}
+footer nav, footer div, footer aside{
+  display: inline-block;
+  vertical-align: middle;
 }
