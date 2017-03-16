@@ -120,3 +120,17 @@ footer h2{
   width: 400px;
   height: 400px;
 }
+.art3{
+  width: 60%;
+  height: 30%;
+  background-color: red;
+  padding: 3em;
+  margin: auto;
+
+}
+.art3 img{
+  width: 30%;
+  height: 30%;
+  margin-left:33%;
+  margin-top: 5em;
+}
