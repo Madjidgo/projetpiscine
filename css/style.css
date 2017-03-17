@@ -164,7 +164,7 @@ footer h2{
   text-transform: uppercase;
 
 }
- input, textarea{
+ .fieldset input,textarea{
   display: block;
 
 }

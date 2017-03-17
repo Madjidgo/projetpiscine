@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Projet Piscine</title>
-      <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="img/madjidgo.jpg" style="image/jpn">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
@@ -17,8 +17,8 @@
           <img src="img/pisc4.jpg" alt="piscine">
         </figure>
         <h1>Piscine des Hauts de France</h1>
-        <p><input type="text" name="buton" id="text" placeholder="Que recherchez vous?">  <button class="btn waves-effect waves-light" type="submit" name="action">valider<i class="material-icons right">send</i></p>
-        </header>
+        <input type="text" name="buton" id="text" placeholder="Que recherchez vous?">  <button class="btn waves-effect waves-light" type="submit" name="action">valider
+    </header>
     <!--
      end if the header
    -->
@@ -44,25 +44,26 @@
 
       <form action="traitement.php" method="post">
 
-        <fieldset>
+        <fieldset class="fieldset">
             <legend> Informations personelles</legend>
+
             <label for="nom">Entre votre Nom:</label>
-            <input type="text" name="nom" id="nom"   autocomplete="on" placeholder="Nom:" autofocus required>
+            <input type="text" name="nom" id="nom"   autocomplete="on" placeholder="Nom:"  required>
 
             <label for="prenom">Entrer votre Prénom:</label>
-            <input type="text" name="prenom" id="prenom"  autocomplete="on" placeholder="Prénom:" autofocus required>
+            <input type="text" name="prenom" id="prenom"  autocomplete="on" placeholder="Prénom:"  required>
 
             <label for="adresse">Entrer votre adresse:</label>
-            <input type="text" name="adresse" id="name"  autocomplete="on" placeholder="Adesse:" autofocus required>
+            <input type="text" name="adresse" id="adresse"  autocomplete="on" placeholder="Adesse:" required>
 
             <label for="mail">Entrer votre Mail:</label>
-            <input type="email" name="mail" id="mail"  autocomplete="on" placeholder="Mail:" autofocus required>
+            <input type="email" name="mail" id="mail"  autocomplete="on" placeholder="Mail:"  required>
 
             <label for="tel">Entrer votre Téléphone:</label>
-            <input type="tel" name="tel" id="tel"  autocomplete="on" placeholder="Télephone" autofocus required>
+            <input type="tel" name="tel" id="tel"  autocomplete="on" placeholder="Télephone"  required>
 
             <label for="text">Vos attentes:</label>
-            <textarea name="text" rows="8" cols="33"></textarea>
+            <textarea name="text" id="text" rows="8" cols="33"></textarea>
 
             <input type="submit" value="Envoyer">
           </fieldset>
