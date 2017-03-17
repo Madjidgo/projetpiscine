@@ -5,6 +5,7 @@
     <title>Projet Piscine</title>
       <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="img/madjidgo.jpg" style="image/jpn">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
 
@@ -17,7 +18,9 @@
      </figure>
      <h1>Piscine des Hauts de France</h1>
      <p><input type="text" name="buton" id="text" placeholder="Que recherchez vous?">
-      <button type="button" name="button">valider</button></p>
+      <!-- <button type="button" name="button">valider</button></p> -->
+      <button class="btn waves-effect waves-light" type="submit" name="action">valider
+    <i class="material-icons right">send</i></p>
    </header>
     <!--
      end if the header
@@ -29,10 +32,10 @@
 
     <nav class="nav-haut">
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li> <a href="tarifs.html">Tarifs</a></li>
-        <li><a href="q-s-nous.html">Qui sommes nous ?</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html"><i class="material-icons">cloud</i>Accueil</a></li>
+        <li> <a href="tarifs.html"><i class="material-icons">cloud</i>Tarifs</a></li>
+        <li><a href="q-s-nous.html"><i class="material-icons">cloud</i>Qui sommes nous ?</a></li>
+        <li><a href="contact.html"><i class="material-icons">cloud</i>Contact</a></li>
       </ul>
     </nav>
     <!--
@@ -43,7 +46,6 @@
   </iframe>
 
 
-  <p>
   <form action="traitement.php" method="post">
 
 <fieldset>
@@ -65,12 +67,43 @@
     <input type="tel" name="tel" id="tel" autofocus autocomplete="on" placeholder="Télephone">
 
     <label for="text">Vos attentes:</label>
-    <textarea name="text" rows="8" cols="40"></textarea>
+    <textarea name="text" rows="8" cols="33"></textarea>
 
     <input type="submit" value="Envoyer">
   </fieldset>
 
     </form>
   </p>
+  <!--
+  start if the footer
+  -->
+      <footer>
+        <h2> Piscine Des Haut de France</h2>
+        <nav>
+          <h4> Infos pratiques:</h4>
+          <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="q-s-nous.html">Qui sommes nous ?</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <p id="p1">Posted by: Madjid Goumidi formation Simpon Roubaix: année 2017</p>
+          <p>Contact information: <a href="mailto:someone@example.com">Madjidgo</a></p>
+        </div>
+
+        <aside>
+          <figure>
+            <a href="#"><img src="img/f.png" alt="facebook"></a>
+            <a href="#"><img src="img/in.png" alt="linkein"></a>
+            <a href="#"><img src="img/tx.png" alt="twitter"></a>
+          </figure>
+        </aside>
+
+      </footer>
+      <!--
+    end if the footer
+    -->
 </body>
 </html>
