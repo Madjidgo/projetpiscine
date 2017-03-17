@@ -45,6 +45,8 @@ header figure{
   padding: 1.5em;
   border-radius: 5px;
   box-shadow: 2px 2px #1b2845;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
 
 }
 
@@ -143,7 +145,7 @@ footer h2{
 .art3{
   width: 60%;
   height: 50%;
-  background-color: #5472AE;
+  background-color: #00496C;
   margin: auto;
 
 }
