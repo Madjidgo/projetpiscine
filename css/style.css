@@ -179,3 +179,19 @@ legend{
   text-transform: uppercase;
 
 }
+table,th,tr,td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2em;
+  margin-top: 1rem;
+  margin-left: 1em;
+  border-color: #5472AE;
+
+}
+table{
+  box-shadow: 2px 2px #A7BBD5;
+}
+th{
+  background-color: #A7BBD5;
+}
