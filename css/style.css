@@ -202,3 +202,6 @@ table{
 th{
   background-color: #A7BBD5;
 }
+h6{
+  display: none;
+}

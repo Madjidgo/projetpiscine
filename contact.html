@@ -17,10 +17,7 @@
           <img src="img/pisc4.jpg" alt="piscine">
         </figure>
         <h1>Piscine des Hauts de France</h1>
-        <p><input type="text" name="buton" id="text" placeholder="Que recherchez vous?">
-      <!-- <button type="button" name="button">valider</button></p> -->
-        <button class="btn waves-effect waves-light" type="submit" name="action">valider
-          <i class="material-icons right">send</i></p>
+        <p><input type="text" name="buton" id="text" placeholder="Que recherchez vous?">  <button class="btn waves-effect waves-light" type="submit" name="action">valider<i class="material-icons right">send</i></p>
         </header>
     <!--
      end if the header
@@ -50,19 +47,19 @@
         <fieldset>
             <legend> Informations personelles</legend>
             <label for="nom">Entre votre Nom:</label>
-            <input type="text" name="nom" id="nom"  autofocus autocomplete="on" placeholder="Nom:">
+            <input type="text" name="nom" id="nom"   autocomplete="on" placeholder="Nom:" autofocus required>
 
             <label for="prenom">Entrer votre Prénom:</label>
-            <input type="text" name="prenom" id="prenom" autofocus autocomplete="on" placeholder="Prénom:">
+            <input type="text" name="prenom" id="prenom"  autocomplete="on" placeholder="Prénom:" autofocus required>
 
             <label for="adresse">Entrer votre adresse:</label>
-            <input type="text" name="adresse" id="name" autofocus autocomplete="on" placeholder="Adesse:">
+            <input type="text" name="adresse" id="name"  autocomplete="on" placeholder="Adesse:" autofocus required>
 
             <label for="mail">Entrer votre Mail:</label>
-            <input type="email" name="mail" id="mail" autofocus autocomplete="on" placeholder="Mail:">
+            <input type="email" name="mail" id="mail"  autocomplete="on" placeholder="Mail:" autofocus required>
 
             <label for="tel">Entrer votre Téléphone:</label>
-            <input type="tel" name="tel" id="tel" autofocus autocomplete="on" placeholder="Télephone">
+            <input type="tel" name="tel" id="tel"  autocomplete="on" placeholder="Télephone" autofocus required>
 
             <label for="text">Vos attentes:</label>
             <textarea name="text" rows="8" cols="33"></textarea>
