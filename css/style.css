@@ -13,8 +13,14 @@ header figure img
   height: 250px;
   border-radius: 100%;
   box-shadow: 2px 4px  #1b2845;
-
 }
+ .art2 img:hover{
+  width: 150%;
+}
+.art3 img:hover{
+  width:60%;
+}
+
 header p{
   display: inline-block;
 }
@@ -172,7 +178,7 @@ fieldset{
   background-color: #5472AE;
   margin-top: 1em;
 }
-fieldset label{
+fieldset label,th{
   color: #fff;
 }
 legend{
@@ -187,6 +193,7 @@ table,th,tr,td
   margin-top: 1rem;
   margin-left: 1em;
   border-color: #5472AE;
+
 
 }
 table{
