@@ -116,10 +116,24 @@ footer h2{
   padding: 0.2em;
 }
 
-.art2 img{
-  width: 400px;
+.art2{
+  width: 300px;
   height: 400px;
+  margin-left: 10%;
+  display: inline-block;
+  padding: 2em;
 }
+
+.art2 img{
+  width: 300px;
+  height: 300px;
+  
+}
+.art2 p{
+ text-align: justify;
+}
+
+
 .art3{
   width: 60%;
   height: 50%;
@@ -163,5 +177,5 @@ fieldset label{
 }
 legend{
   text-transform: uppercase;
-  
+
 }
