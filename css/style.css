@@ -18,13 +18,13 @@ header figure img
   width:60%;
 }
 
-header p{
+header p, h1, header figure, .nav-haut li{
   display: inline-block;
 }
 h1{
   font-size: 40px;
   vertical-align: middle;
-  display: inline-block;
+  /*display: inline-block;*/
   margin-left: 20%;
   color: #135c81;
   text-shadow: 1px -2px #1b2845;
@@ -32,7 +32,7 @@ h1{
 
 }
 header figure{
-  display: inline-block;
+  /*display: inline-block;*/
   vertical-align: middle;
 }
 .nav-haut{
@@ -48,7 +48,7 @@ header figure{
 }
 
 .nav-haut li{
-  display: inline-block;
+  /*display: inline-block;*/
   text-align: center;
 
 }
@@ -197,8 +197,14 @@ table{
   box-shadow: 2px 2px #A7BBD5;
 }
 th{
-  background-color: #A7BBD5;
+  background-color: #00496C;
 }
 h6{
   display: none;
+}
+
+.banq img{
+  width: 6em;
+  height: 3em;
+
 }
