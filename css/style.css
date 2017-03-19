@@ -3,7 +3,11 @@ body{
   background-color: #f4f4ed;
   width: 100%;
 }
+/*
 
+~~~~ Header rules ~~~~~
+
+*/
 header figure img
 {
   width: 250px;
@@ -35,6 +39,17 @@ header figure{
   /*display: inline-block;*/
   vertical-align: middle;
 }
+/*
+
+~~~~end Header rules ~~~~~
+
+*/
+
+/*
+
+~~~~ nav rules ~~~~~
+
+*/
 .nav-haut{
   margin-top: 0.5em;
   background-color:#A7BBD5;
@@ -60,9 +75,19 @@ header figure{
 a:hover{
 background-color:#1b2845;
 }
+/*
+
+~~~~ end nav rules ~~~~~
+
+*/
 .fig1{
   margin-left: 7%;
   margin-top: 0.5em;
+  /*
+
+~~~~ art rules ~~~~~
+
+*/
 }
 article p{
   width: 86%;
@@ -77,6 +102,17 @@ article span{
   text-transform: uppercase;
     color:#1b2845;
 }
+/*
+
+~~~~ end art rules ~~~~~
+
+*/
+
+/*
+
+~~~~ footer rules ~~~~~
+
+*/
 
 footer{
   background-color:#A7BBD5;
@@ -118,7 +154,17 @@ footer h2{
   color:#fff;
   padding: 0.2em;
 }
+/*
 
+~~~~end  footer rules ~~~~~
+
+*/
+
+/*
+
+~~~~ art2 art3rules ~~~~~
+
+*/
 .art2{
   width: 300px;
   height: 400px;
@@ -161,6 +207,18 @@ footer h2{
   text-transform: uppercase;
 
 }
+
+/*
+
+~~~ end art2,art3 rules ~~~~~
+
+*/
+/*
+
+~~~~ form rules ~~~~~
+
+*/
+
  .fieldset input,textarea{
   display: block;
 
@@ -190,7 +248,17 @@ table,th,tr,td
   margin-top: 1rem;
   margin-left: 1em;
   border-color: #5472AE;
+  /*
 
+  ~~~~ end form rules ~~~~~
+
+  */
+
+  /*
+
+~~~~ table rules ~~~~~
+
+*/
 
 }
 table{
@@ -202,6 +270,11 @@ th{
 h6{
   display: none;
 }
+/*
+
+~~~~ end table rules ~~~~~
+
+*/
 
 .banq img{
   width: 6em;
